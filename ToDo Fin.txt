@@ -1,0 +1,46 @@
+Generic
+	- web.app.home
+	- Theme to Dark
+	- AI Chat Response and UI Improve
+	- Widgets move by BODY - Configure ?
+	- Pin Head - Width and Length
+	- Perform window ?
+	- Option bundles
+	- Entity - getInformation() and getInformationMore()
+	
+Home
+	- Calendar.Save - Error
+	- Calendar.Views
+	- Notice.Details - Edge Information
+	- Role Infomration and Performance
+	- Issue WG Seperate to Help Desk and Service Desk
+	- XUI ITSM and Home Widgets
+	- Widget Error
+	
+Reporting
+	- Generate From ToDo
+	
+Issue
+	- Home Widget Seperate Help Desk or Service Desk
+	- Related Operation.ToDo, ITSM.Change, ITSM.Incident, ITSM.Problem, ITSM.Support
+	
+ToDo
+	- Project Selection and RACI
+	
+Project
+	- Sprints and BackLogs or ToDo
+	
+ITSM
+	- CAB and CAB Option
+	- Stats and Reporting and Home Widget
+	- baseType and visible fields on Save and Details page (Log, Configuration)
+	- Privilege.protocolType (SSH, VPN ...)
+	- API Service or Proxy Service or Integration
+	- Software.Save - priorityType Bundle
+	- Research.baseType
+	- Prog.View - Canban Columns ?
+	- Risk Questions To Optimize on Business Request, Change, Incident, Problem
+	- Change from Request
+	
+CSS
+	- ui-soc
