@@ -1,0 +1,9 @@
+<ui:composition template="/Templates/#{appBean.moduleExtensionID}/#{appBean.UIDevice}.xhtml" xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="jakarta.faces.facelets" xmlns:jsf="jakarta.faces" xmlns:h="jakarta.faces.html" xmlns:f="jakarta.faces.core" xmlns:pt="jakarta.faces.passthrough" xmlns:c="jakarta.tags.core" xmlns:fn="jakarta.tags.functions" xmlns:p="primefaces" xmlns:pe="http://primefaces.org/ui/extensions" xmlns:o="http://omnifaces.org/ui" xmlns:of="http://omnifaces.org/functions" lang="en">
+	<f:metadata>
+        <f:viewAction action="#{appBean.onViewAction()}" />
+    	<f:event type="preRenderView" listener="#{appBean.onPreRenderView()}" />
+    </f:metadata>
+    <ui:define name="WP">
+		<ui:include src="Pages/#{appBean.moduleExtensionID}/#{appBean.UIDevice}.#{appBean.getHasRole()?'Prime':'Facade'}.xhtml" />
+	</ui:define>
+</ui:composition>
